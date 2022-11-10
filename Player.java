@@ -25,7 +25,6 @@ public class Player {
     }
 
     public boolean foundExit() {
-        
         if (grid.getPlayerTile().toString() == "O") {
             return true;
         }
@@ -149,6 +148,5 @@ public class Player {
             }
             else grid.getTileAtPosition(i,y).setVisibility(true);
         }
-        //grid.getPlayerTile().setVisibility(true);
     }
 }
