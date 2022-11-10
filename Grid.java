@@ -1,5 +1,4 @@
 import java.util.ArrayList; 
-
 public class Grid {
     private static final String GRID_CORNER_SYMBOL = "+";
     private static final String GRID_HORIZONTAL_SYMBOL = "-";
