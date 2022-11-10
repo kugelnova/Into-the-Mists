@@ -1,5 +1,4 @@
 import java.util.ArrayList; 
-
 public class Tile {
     private static final String HIDDEN_SYMBOL = "~";
     private static final String PLAYER_ON_EXIT_TILE_SYMBOL = "O";
@@ -9,15 +8,13 @@ public class Tile {
     private static final String UNKNOWN_ITEM_SYMBOL = "?";
     private static final String EMPTY_TILE_SYMBOL = " ";
 
-    private int x;
-    private int y;
-    private boolean visibility;
+    private int x, y;
+    private boolean visibility = true;
     private ArrayList <String> data;
 
     public Tile(int x, int y) {
         this.x = x;
         this.y = y;
-        visibility = true;
         data = new ArrayList<String>();
     }
 
